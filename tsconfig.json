@@ -1,0 +1,26 @@
+{
+    "include": [
+        "src/**/*.ts",
+    ],
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "importHelpers": true,
+        "jsx": "preserve",
+        "lib": [
+            "esnext",
+            "dom",
+            "dom.iterable",
+            "scripthost"
+        ],
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noStrictGenericChecks": true,
+        "outDir": "dist",
+        "removeComments": true,
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "strictNullChecks": true,
+        "target": "es2017"
+    }
+}
