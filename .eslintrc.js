@@ -23,6 +23,7 @@ module.exports = {
                      @typescript-eslint/parser."
                     */
                     '<template>': 'espree',
+                    js: '@typescript-eslint/parser',
                     ts: '@typescript-eslint/parser',
                 },
                 project: ['./tsconfig.json'],
